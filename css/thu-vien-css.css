@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+*{ box-sizing: border-box}
+body{
+  font-family: 'Signika', sans-serif;font-size: 16px;color: #666666;margin: 0;;  
+}
+
+h1{font-size:38px}
+.container{ width: 70%; margin: auto}
+.img-100{ width: 100%; height: auto}
+.img-circle{ border-radius: 50%}
+.row{ display: flex; flex-wrap: wrap}
+.box-center{margin: auto}
+.box-shadow
+
+{box-shadow: 0 0 10px #666;
+ padding: 20px;
+ margin-bottom: 10px;
+	margin-top: 10px;
+	height: 100%
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  padding: 15px;
+}
+
+.py-50{ padding-top: 50px;padding-bottom: 50px}
+.py-auto{ padding-top: auto;padding-bottom: auto}
+.p-0{ padding: 0} .p-3{padding: 15px}
+.mt-0{ margin-top: 0}.my-10{margin: 10px 0} .mb-10{margin-bottom: 10px}
+.my-30{ margin-top: 30px; margin-bottom: 30px}
+.mx-auto { margin-left: auto; margin-right: auto}
+.text-right{ text-align: right}
+.text-center { text-align: center}
+.d-flex{ display: flex}
+.d-block{ display:block}
+.d-none{ display: none}
+.justify-center{ justify-content: center}
+.justify-between{ justify-content: space-between}
+.justify-around{ justify-content: space-around}
+.flex-row-reverse{flex-direction: row-reverse}
+.align-item-center{align-items: center}
+.text-white{ color: #fff}
+.text-primary{color: #945336}
+.text-body{color: #363636; text-decoration: none}
+
+.btn-fill-primary
+{
+    background-color:#F87503;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+     border: 2px solid #F87503;
+    transition: all .5s
+}
+
+.btn-fill-primary:hover{
+     background-color:#ffffff;
+    color: #363636
+}
+
+.text-primary:hover
+{
+color: #850002}
+
+.text:hover{
+	color:#850002
+}
+.btn-outline-primary
+
+{
+    border: 2px solid #F87503;
+    background: none;
+    padding: 8px 16px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+     transition: all .5s
+}
+
+.btn-outline-primary:hover{
+ background-color:#F87503;
+ color: #333
+}
+
+.navbar{ background: #FFFFFF
+; padding: 16px 0
+}
+
+.navbar .container
+{
+display: flex;
+justify-content: space-between;/*phan phoi chieu ngang cac khoang cach*/
+align-items:center; /*day chieu doc cac doi tuong trong 1 flex*/
+}
+
+.navbar #menu ul
+{display: flex; 
+list-style: none;
+margin: 0; padding: 0
+}
+
+.navbar #menu ul a
+{	text-decoration: none; padding: 0 20px;
+	color: #363636
+}
+
+.navbar #menu ul a:hover
+{color: #945336;
+text-decoration: underline
+}
+
+.navbar .icon a
+{	text-decoration: none;
+	margin: 0 10px
+}
+
+a{color: #945336; text-decoration: underline}
+
+a:hover{color: #363636;}
+
+.product-bg{background-image: url("../images/bg2.png");
+
+	width: 100%;
+	background-position: center;
+	padding: 50px 10px;
+ min-height: 700px;
+text-align: center;
+ position: relative;
+padding-top: 15px}
+
+ .section-title {
+      font-weight: bold;
+      color: #333;
+      display: inline-block;
+      position: relative;
+	 margin-bottom: 30px;}
+
+ .section-title::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      width: 100%;
+      height: 5px;
+      background-color: #945336;
+    }
+
+.vien{border: 2px solid #C8A697;}
+.vien:hover
+
+{
+}
+
+.vien-white{border: 1.5px solid #ffffff}
+section#sp-noibat
+
+{
+
+	background-image: url(" ../images/bg2.png");
+	background-size: cover;
+	background-position: center 35%;
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+
+.full-img{width: 100%; height: auto;display: block}
+section#contact
+
+{background-image: url("../images/Banner2.png");
+	background-size: cover;
+background-position: center 35%;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.form-control
+
+{	width: 100%;
+padding: 6px;
+margin-bottom: 10px;
+margin-top: 16px;
+border: 1px solid #666;
+border-radius: 5px
+}
+textarea:placeholder
+{
+vertical-align: top
+}
+
